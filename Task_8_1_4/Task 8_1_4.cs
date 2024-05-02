@@ -1,4 +1,4 @@
-﻿public class DiskManager 
+﻿public class Drive 
 {
     private string name;
 	public string Name
@@ -23,7 +23,7 @@
 
     Dictionary<string, Folder> Folders = new Dictionary<string, Folder>();
 
-    DiskManager(string name, decimal space, decimal freeSpace) 
+    Drive(string name, decimal space, decimal freeSpace) 
     {
         Name = name;
         Space = space;
